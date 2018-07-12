@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Formulario Contacto</string>
+    <string name="rbtnSiguiente">Siguiente</string>
+    <string name="rtvNombre">Nombre Completo</string>
+    <string name="rdescripcion_contacto">Descripción Contacto</string>
+
+    <string name="pNombre">pNombre</string>
+    <string name="pFechaDeNacimiento">pFechaDeNacimiento</string>
+    <string name="pTelefono">pTelefono</string>
+    <string name="pEmail">pEmail</string>
+    <string name="pDescripcionContacto">pDescripcionContacto</string>
+    <string name="reditar_datos">Editar Datos</string>
+    <string name="rconfirmar_datos">Confirmar Datos</string>
+
+
+</resources>

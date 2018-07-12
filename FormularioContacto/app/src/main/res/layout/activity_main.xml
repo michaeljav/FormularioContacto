@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/llVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnSeguiente"
+            android:paddingLeft="30dp"
+            android:paddingTop="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="0dp"
+
+
+            >
+
+            <EditText
+                android:id="@+id/edNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rtvNombre"/>
+
+            <DatePicker
+                android:id="@+id/dpFechaDeNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"    />
+
+            <EditText
+                android:id ="@+id/edTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefono"/>
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                />
+
+            <EditText
+                android:id="@+id/etDescripcionContacto"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:gravity="start"
+                android:hint="@string/rdescripcion_contacto"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+
+                />
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSeguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/rbtnSiguiente"
+        android:theme="@style/MiBotonRaised"
+        />
+
+
+
+
+</RelativeLayout>

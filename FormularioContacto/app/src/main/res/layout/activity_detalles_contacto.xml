@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetallesContacto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rconfirmar_datos"
+            android:textSize="60px"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_marginTop="40px"
+            android:textSize="40px"
+            android:textStyle="bold"
+            />
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dTop"
+                  >
+                  <TextView
+                      android:id="@+id/tvFechaNacimiento"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Fecha Nacimiento:"
+                      />
+
+                  <TextView
+                      android:id="@+id/tvFechaParametro"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="12/12/2087"
+                      />
+
+              </LinearLayout>
+              <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dTop"
+            >
+            <TextView
+                android:id="@+id/etTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tel. "
+                />
+
+            <TextView
+                android:id="@+id/tvTelefonoParametro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00000000"
+                />
+
+        </LinearLayout>
+              <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dTop"
+            >
+            <TextView
+                android:id="@+id/etEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                />
+
+            <TextView
+                android:id="@+id/tvEmailParametro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="correo@gamil.com"
+                />
+
+        </LinearLayout>
+              <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dTop"
+            >
+            <TextView
+                android:id="@+id/etDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripción: "
+                />
+
+            <TextView
+                android:id="@+id/tvDescripcionParametro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Texto desdfsdfsdfsdfsdfs preuba descriptcion solo purega prueba y preuba "
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEditarDatos"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50px"
+            android:text="@string/reditar_datos" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
